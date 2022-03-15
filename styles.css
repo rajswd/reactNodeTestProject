@@ -1,0 +1,47 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+ul.toolbar{
+    list-style-type: none;
+    display: flex;
+    background: lightgray;
+    padding: 1.5em;
+    margin: 0px;
+}
+.toolbar li {
+    min-width: 5em;
+}
+.right{
+    float:right;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+table {
+    border-spacing: 0;
+    border: 1px solid #acacac;
+}
+td, th {
+    border: 0px solid;
+    border-bottom: 1px solid #dcdcdc;
+    padding: 0.5em 1em;
+    color: #484545;
+    font-size: .85em;
+}
+
+.delete{
+    cursor: pointer;
+    color: red;
+    font-size: .75em;
+}
+
+.label {
+    min-width: 12em;
+    display: inline-block;
+    text-align: right;
+}
+.align-top{
+vertical-align: top;
+}
